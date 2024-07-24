@@ -1,10 +1,10 @@
-## Credit Risk Classifier 
+## Credit Risk Classification Model
 
 This is a simple project, credit risk classification model, that is part of the intro to Machine Learning exercises in Pacmann. The goal of this project is to understand the basic workflow of creating a Machine Learning model, as well as applying analysis in an industry case, using 4 simple algorithms.
 
-We are encouraged to work as data scientists in a risk analysis team in the finance industry. Our company profits by providing loans to customers but faces potential losses if customers fail to repay the loan (known as defaulting). To minimize these losses, it is important to prevent bad applicants (who may later default) from receiving loans. 
+We are encouraged to work as data scientists in a risk analysis team in the finance industry. Our company profits by providing loans to customers but faces potential losses if customers fail to repay the loan (known as defaulting). To minimize these losses, it is important to prevent bad applicants (who may later default) from receiving loans. Our target variable is loan status which consists of binary identification: 0 is non default, 1 is default. 
 
-As data scientists, our goal is to build a classifier model that can accurately classify applicants as good or bad. If we incorrectly classify a good applicant as bad, we would lose an average potential revenue of Rp10,000,000 per applicant. On the other hand, if we incorrectly classify a bad applicant as good, we would lose Rp35,000,000 per applicant on average.
+As data scientists wanna be, our goal is to build a classifier model that can accurately classify applicants as good or bad. If we incorrectly classify a good applicant as bad, we would lose an average potential revenue of Rp10,000,000 per applicant. On the other hand, if we incorrectly classify a bad applicant as good, we would lose Rp35,000,000 per applicant on average.
 
 Comprehensive overview of the Credit Risk dataset: 
 
@@ -12,7 +12,7 @@ Comprehensive overview of the Credit Risk dataset:
 
 Source of picture and dataset: [Kaggle](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 
-Regarding the business case, our focus is on false positives and false negatives, with explanations for each category as follows:
+Regarding the business case provided by Pacmann team, our focus is on false positives and false negatives. These are the results of the best model:
 
 - False positives (FP) : 
 The model incorrectly predicted 94 negative cases as positive, resulting in a potential loss of Rp940,000,000 (94*10,000,000)
